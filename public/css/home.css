@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	background-color: #ffffff;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	overflow-x: hidden;
+}
+
+/* collection */
+
+#summer-collection {
+	width: 100%;
+	display: block;
+	margin: 6rem 0rem;
+}
+
+#summer-collection .container {
+	margin: 0 auto;
+	width: 80%;
+	background-color: #ffffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#summer-collection .container .sc-content {
+	width: 60%;
+	padding-top: 3.4rem;
+	padding-right: 3rem;
+	padding-bottom: 2rem;
+}
+
+#summer-collection .container .sc-content h1 {
+	font-family: "Franklin Gothic Medium";
+	color: #000000;
+	font-size: 4rem;
+	font-weight: 800;
+	letter-spacing: 1rem;
+	line-height: 6rem;
+	text-transform: uppercase;
+	margin-bottom: 2vw;
+}
+
+#summer-collection .container .sc-content p.description {
+	font-family: Cambria;
+	color: rgba(89, 89, 89, 0.8);
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 2rem;
+	margin-bottom: 4vw;
+	padding-right: 4rem;
+}
+
+#summer-collection .container .sc-content a {
+	border-bottom: 2px solid #a61458;
+	text-decoration: none;
+	font-family: "Franklin Gothic Medium";
+	color: #000000;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#summer-collection .container .sc-media {
+	width: 40vw;
+}
+
+#summer-collection .container .sc-media .sc-media-bg {
+	width: 100%;
+	height: auto;
+	padding-top: 3vw;
+}
+
+#summer-collection .container .sc-media .sc-media-bg img {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+	#summer-collection {
+		width: 100vw;
+		display: block;
+		margin-top: 0rem;
+	}
+	#summer-collection .container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	#summer-collection .container .sc-content {
+		width: 80vw;
+		padding: 8rem 2rem 2rem;
+	}
+	#summer-collection .container .sc-media {
+		width: 80vw;
+	}
+	#summer-collection .container .sc-content h1 {
+		font-size: 5.6vw;
+		letter-spacing: 1rem;
+		line-height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#summer-collection .container .sc-content h1 {
+		font-size: 5.6vw;
+		letter-spacing: 0.6rem;
+		line-height: 2.4rem;
+		margin-bottom: 1rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#summer-collection .container .sc-content p.description {
+		font-size: 1rem;
+		line-height: 1.8rem;
+		margin-bottom: 4vw;
+		padding-right: 1.2rem;
+		text-align: justify;
+		margin-bottom: 2rem;
+	}
+}
+
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row-center{
+	justify-content: center;
+}
+
+
+
+#a{
+	text-decoration: none;
+    color: black;
+}
+
+.h2{
+	font-size: 1rem;
+}
+
+
+.nav-item{
+	color: black;
+}
+
+
+/* img */
+
+
+img{
+	border-radius: 0.5rem;
+}
+
+img.medium{
+	max-width: 25rem;
+	width: 100%;
+}
+
+/* card */
+
+.card {
+	border: 0.1rem rgb(80, 106, 255) solid;
+	background-color: rgb(182, 65, 153);
+	border-radius: 0.5rem;
+	margin: 1rem;
+}
+
+.card-body{
+	padding: 1rem;
+}
+
+.card-body > *{
+	margin-bottom: 0.5rem;
+}
+
+.price{
+	font-size: 2rem;
+}
+
+
+/* product */
+
+#product-section{
+    font-family: "Franklin Gothic Medium";
+	margin-bottom: 50px;
+}
+
+.sc-content-shop{
+	display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* Nav Bar */
+
+.nav-link{
+	color: white;
+	font-family: "Franklin Gothic Medium";
+	font-size: 20px;
+	}
+	
+.nav-link:hover{
+		border-color: white !important;
+		padding: 0.5px;
+		font-size: 25px;
+	}
+	
+#logo{
+		height: 75px;
+		width: 130px;
+		}
+
+
+/* NL e Footer */
+
+.newsletter{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: rgb(15, 15, 15);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    margin-top: 4%;
+}
+
+#nl-btn{
+    background-color: rgb(15, 15, 15);
+
+}
+
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.list-inline-item > a{
+    font-size: 20px;
+    color: black;
+}
+
+
